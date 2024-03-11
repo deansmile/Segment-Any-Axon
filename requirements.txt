@@ -1,0 +1,7 @@
+numpy
+matplotlib
+opencv-python
+pathlib
+torch
+skimage
+pycocotools
