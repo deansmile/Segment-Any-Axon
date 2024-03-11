@@ -36,15 +36,15 @@ def random_blur_2d(image):
     sigma = np.random.uniform(0, 4)
     return gaussian_filter(image, sigma=sigma)
 
-image = img_as_float(io.imread("D:\\github\\Segment-Any-Axon\\zenodo\\images\\7_EM1_3_10D_N_P_0002.jpg"))
-# Apply the redefined augmentation functions to the synthetic image
-augmented_images_2d = [
-    random_shift_2d(image),
-    random_rotation_2d(image),
-    random_rescale_2d(image),
-    random_flip_2d(image),
-    random_blur_2d(image)
-]
+# image = img_as_float(io.imread("D:\\github\\Segment-Any-Axon\\zenodo\\images\\7_EM1_3_10D_N_P_0002.jpg"))
+# # Apply the redefined augmentation functions to the synthetic image
+# augmented_images_2d = [
+#     random_shift_2d(image),
+#     random_rotation_2d(image),
+#     random_rescale_2d(image),
+#     random_flip_2d(image),
+#     random_blur_2d(image)
+# ]
 
 def elastic_deformation_2d(image, alpha, sigma):
     assert len(image.shape) == 2, "Image must be 2D"
@@ -69,15 +69,15 @@ def elastic_deformation_2d(image, alpha, sigma):
 
 
 # Plot the original and augmented images
-fig, axes = plt.subplots(2, 3, figsize=(12, 8))
-axes = axes.ravel()
-axes[0].imshow(image, cmap='gray')
-axes[0].set_title('Original')
-
-titles = ['Shifted', 'Rotated', 'Rescaled', 'Flipped', 'Blurred']
-for ax, img, title in zip(axes[1:], augmented_images_2d, titles):
-    ax.imshow(img, cmap='gray')
-    ax.set_title(title)
-
-plt.tight_layout()
-plt.show()
+# fig, axes = plt.subplots(2, 3, figsize=(12, 8))
+# axes = axes.ravel()
+# axes[0].imshow(image, cmap='gray')
+# axes[0].set_title('Original')
+#
+# titles = ['Shifted', 'Rotated', 'Rescaled', 'Flipped', 'Blurred']
+# for ax, img, title in zip(axes[1:], augmented_images_2d, titles):
+#     ax.imshow(img, cmap='gray')
+#     ax.set_title(title)
+#
+# plt.tight_layout()
+# plt.show()
