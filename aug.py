@@ -36,7 +36,7 @@ def random_blur_2d(image):
     sigma = np.random.uniform(0, 4)
     return gaussian_filter(image, sigma=sigma)
 
-image = img_as_float(io.imread("D:\\github\\Segment-Any-Axon\\zenodo\\Images\\7_EM1_3_10D_N_P_0002.jpg"))
+image = img_as_float(io.imread("D:\\github\\Segment-Any-Axon\\zenodo\\images\\7_EM1_3_10D_N_P_0002.jpg"))
 # Apply the redefined augmentation functions to the synthetic image
 augmented_images_2d = [
     random_shift_2d(image),
