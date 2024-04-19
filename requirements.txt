@@ -3,5 +3,5 @@ matplotlib
 opencv-python
 pathlib
 torch
-skimage
+scikit-image
 pycocotools

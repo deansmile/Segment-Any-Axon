@@ -1,0 +1,4 @@
+install microsam from mamba: https://computational-cell-analytics.github.io/micro-sam/micro_sam.html
+install rsprompter in the mamba microsam environment, NOT conda: https://computational-cell-analytics.github.io/micro-sam/micro_sam.html
+python RSPrompter/tools/train.py samseg-maskrcnn-axonmyelin.py
+---- abandon -----------
