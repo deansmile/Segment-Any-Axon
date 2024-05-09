@@ -14,4 +14,4 @@
 14. Run [train_axon.py](finetuning/train_axon.py) to train with the axon mask. Make sure you change directory for the data. You can also download our [model](https://drive.google.com/file/d/1opKTymw-eH8OQdyWw14vboTE5gzsCQND/view?usp=sharing).
 15. Run [train_myelin.py](finetuning/train_myelin.py) to train with the myelin mask. Make sure you change directory for the data. You can also download our [model](https://drive.google.com/file/d/1voie-0zM0iHpO3Nb7kHNo9wE1AlW87na/view?usp=sharing).
 16. You can train with baseline mask and instance mask using train_microsam.ipynb and train_microsam_with_accurate_prompting.ipynb respectively.
-17. Run [evaluation.ipynb](evaluation.ipynb) for the example evaluation.
+17. Run [evaluation.ipynb](evaluation.ipynb) to evaluate and compare among our models and the baseline model.
