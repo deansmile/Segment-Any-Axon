@@ -7,3 +7,4 @@
 7. Run train_inst.py to train with the instance mask.
 8. Run train_axon.py to train with the axon mask.
 9. Run train_myelin.py to train with the myelin mask.
+10. Run evaluation.ipynb for the example evaluation.
