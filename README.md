@@ -7,4 +7,4 @@
 7. Run train_inst.py to train with the instance mask. Make sure you change directory for the data. You can also download our [model](https://drive.google.com/file/d/1hCVCvCNXGxOEg8dkL8jCw-Evz0-06B7C/view?usp=sharing).
 8. Run train_axon.py to train with the axon mask. Make sure you change directory for the data. You can also download our [model](https://drive.google.com/file/d/1opKTymw-eH8OQdyWw14vboTE5gzsCQND/view?usp=sharing).
 9. Run train_myelin.py to train with the myelin mask. Make sure you change directory for the data. You can also download our [model](https://drive.google.com/file/d/1voie-0zM0iHpO3Nb7kHNo9wE1AlW87na/view?usp=sharing).
-10. Run evaluation.ipynb for the example evaluation. Make sure you change directory for the data.
+10. Run evaluation.ipynb for the example evaluation.
